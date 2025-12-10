@@ -81,6 +81,8 @@ The model learns to predict change addresses based on topological and transactio
 ```
 .
 ├── fetch_txs.py
+├── db/
+│   ├── mempool.db
 ├── data/
 │   ├── raw.json
 │   ├── processed.ndjson
@@ -88,7 +90,7 @@ The model learns to predict change addresses based on topological and transactio
 │   ├── 0) Preprocessing.ipynb
 │   ├── 1) GNN.ipynb
 └── models/
-    └── hetero_gnn.py
+    └── GNN1
 ```
 
 ---
