@@ -31,13 +31,13 @@ For each transaction ID, it downloads the complete transaction as **JSON**.
 ### Usage
 
 ```bash
-python3 ./fetch_txs.py --db <PATH/TO/DB> --out-file <PATH/TO/OUTPUT.json>
+python3 ./fetch_txs.py --db <PATH/TO/DB> --out-file <PATH/TO/OUTPUT.(json|csv)>
 ```
 
 **Parameters:**
 
 * `--db` : Path to the database containing the transaction IDs
-* `--out-file` : Destination path for the generated JSON file
+* `--out-file` : Destination path for the generated JSON or csv file
 
 The resulting file contains raw data of all fetched transactions.
 
