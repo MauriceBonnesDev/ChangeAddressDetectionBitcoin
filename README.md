@@ -50,8 +50,8 @@ Goals of preprocessing:
 Example output format (ndjson):
 
 ```
-{"tx": "...", "neighbors": [...], ...}
-{"tx": "...", "neighbors": [...], ...}
+{"nodes": [...], "edges": [...]}
+{"nodes": [...], "edges": [...]}
 ...
 ```
 
