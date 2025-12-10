@@ -43,7 +43,7 @@ The resulting file contains raw data of all fetched transactions.
 
 ---
 
-## 🧹 Step 2: Preprocessing (Jupyter Notebook `0) Preprocessing.ipynb`)
+## 🧹 Step 2: Preprocessing (`0) Preprocessing.ipynb`)
 
 The JSON file created in the previous step is processed in this notebook.
 
