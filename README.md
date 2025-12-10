@@ -15,12 +15,6 @@ A **RBF dataset** serves as the ground truth. The project includes:
 The project requires a dataset containing Bitcoin transaction IDs.
 This dataset can, for example, be stored in a **database table**.
 
-Example of a minimal table:
-
-| tx_id (string)   |
-| ---------------- |
-| <transaction id> |
-
 ---
 
 ## 📥 Step 1: Fetch Transactions (`fetch_txs.py`)
